@@ -23,6 +23,7 @@ pkg install clang -y
 clr 32 "Installing freetype"
 clr 37
 pkg install freetype -y
+python -m pip install --upgrade pip
 clr 32 "Installing other pakages and config"
 clr 37
 pkg install libpng pkg-config -y
