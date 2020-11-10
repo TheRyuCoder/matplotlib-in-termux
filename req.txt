@@ -1,0 +1,8 @@
+pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
+numpy>=1.15
+cycler>=0.10
+kiwisolver>=1.0.1
+python-dateutil>=2.1
+certifi>=2020.06.20
+pillow>=3.4
+QtPy>=1.9.0
