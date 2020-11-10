@@ -24,11 +24,12 @@ clr 32 "Installing freetype"
 clr 37
 pkg install freetype -y
 python -m pip install --upgrade pip
+pip install cppy
 clr 32 "Installing other pakages and config"
 clr 37
 pkg install libpng pkg-config -y
 pip install six
-pip install matplotlib
+pip install matplotlib 
 export CFLAGS='-I/directory/containing/ft2build.h ...'
 export LDFLAGS='-L/directory/containing/libfreetype.so ...'
 clr 32 "Testing matplotlib"
