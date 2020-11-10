@@ -26,6 +26,7 @@ pkg install freetype -y
 clr 32 "Installing other pakages and config"
 clr 37
 pkg install libpng pkg-config -y
+pip install six
 pip install matplotlib
 export CFLAGS='-I/directory/containing/ft2build.h ...'
 export LDFLAGS='-L/directory/containing/libfreetype.so ...'
