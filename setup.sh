@@ -25,6 +25,8 @@ clr 37
 pkg install freetype -y
 python -m pip install --upgrade pip
 pip install cppy
+pkg uninstall libhdf5
+dpkg -i ./libhdf5_1.10.6_aarch64.deb
 clr 32 "Installing other pakages and config"
 clr 37
 pkg install libpng pkg-config -y
