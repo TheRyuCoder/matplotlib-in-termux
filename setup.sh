@@ -30,6 +30,7 @@ clr 37
 pkg install libpng pkg-config -y
 pip install six
 pip install matplotlib 
+sed 's@#enable_lto = True@enable_lto = False@g' setup.cfg.template > setup.cfg
 export CFLAGS='-I/directory/containing/ft2build.h ...'
 export LDFLAGS='-L/directory/containing/libfreetype.so ...'
 clr 32 "Testing matplotlib"
